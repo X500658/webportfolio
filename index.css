@@ -3,23 +3,34 @@ html {
     font-size: 1.5rem;
 }
 
-#landing {
-    background-image: url("./bg pic.jpg");
+#about {
+    background-image: url("./images/beach.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 	min-height: 100vh;
 	background-attachment: scroll;
 }
 
-#landing-row {
-    background-color: rgba(0, 0, 0, 0.5);
+#about-row{
     min-height: 100vh;
+}
+
+.cast-shadow {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #profile {
     font-family: 'Passion One', cursive !important;
 }
 
-#profile > p {
+#caveat {
     font-family: 'Caveat', cursive;
+}
+
+.logos {
+    max-width: 150px;
+}
+
+hr {
+    visibility: hidden;
 }
