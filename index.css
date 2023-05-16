@@ -5,17 +5,20 @@ html {
 
 #about {
     background-image: url("./images/beach.jpg");
+}
+#landing {
+    background-image: url("./images/fish.jpg");
+}
+
+#landing, #about {
     background-repeat: no-repeat;
     background-size: cover;
 	min-height: 100vh;
 	background-attachment: scroll;
 }
 
-#about-row{
+#landing-row, #about-row {
     min-height: 100vh;
-}
-
-.cast-shadow {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -23,7 +26,7 @@ html {
     font-family: 'Passion One', cursive !important;
 }
 
-#caveat {
+.caveat {
     font-family: 'Caveat', cursive;
 }
 
@@ -33,4 +36,9 @@ html {
 
 hr {
     visibility: hidden;
+}
+
+a:hover {
+    text-decoration: underline;
+
 }
