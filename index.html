@@ -150,7 +150,7 @@
 			</div>
 		</section>
 		<!-- contact -->
-		<section id="contact" class="pt-5 p-1 pb-3 pb-xl-0 p-lg-3 bg-dark container-fluid text-center text-white">
+		<section id="contact" class="pt-5 p-1 pb-3 p-lg-3 bg-dark container-fluid text-center text-white">
 			<div id="contact-row" class="pt-3">
 				<h2>Contact Me</h2>
 				<div class="row px-3 px-md-5 pt-3">
@@ -195,6 +195,14 @@
 			<a href="#landing" class="text-decoration-none text-white">Back to Top</a>
 		</footer>
 	</div>
+	<script>
+		const navLinks = document.querySelectorAll('.nav-item')
+		const menuToggle = document.getElementById('navbarSupportedContent')
+		const bsCollapse = new bootstrap.Collapse(menuToggle)
+		navLinks.forEach((l) => {
+			l.addEventListener('click', () => { bsCollapse.toggle() })
+		})
+	</script>
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 		crossorigin="anonymous"></script>
