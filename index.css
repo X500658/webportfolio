@@ -33,13 +33,5 @@ html {
 
 .logos {
     max-width: 150px;
-}
-
-hr {
-    visibility: hidden;
-}
-
-a:hover {
-    text-decoration: underline;
-
+    min-width: 70px;
 }
