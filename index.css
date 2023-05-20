@@ -22,12 +22,13 @@ html {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#profile {
+.passion, .passion-header {
     font-family: 'Passion One', cursive !important;
 }
 
-.caveat {
-    font-family: 'Caveat', cursive;
+.passion-header > h1, .passion-header > h4 {
+    font-family: 'Passion One', cursive !important;
+    font-weight: 700;
 }
 
 .logos {
